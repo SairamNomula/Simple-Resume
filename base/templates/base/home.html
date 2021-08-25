@@ -1,0 +1,90 @@
+{% load static %}
+<!-- <h3>Hello world!</h3>
+
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sairam Nomula</title>
+        <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <br>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-photo" src="{% static 'images/me.png' %}" >
+                    <br>
+                    <h4>Hey, I'm Sairam Nomula</h4>
+                    <p>Student</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>About me</h4><br>
+                    <p>I'm Venkata Naga Sai Ram Nomula. I'm a student at SRM University, Kattankulathur. I'm intrested in Frontend web development.</p>
+                    <p>Technology leads, society follows. The move towards increasing, inclusivity and diversity in the industry through representation is of importance to me.</p>
+                    <p>I'm excited to make the leap and continue refining my skills with the right company. I believe in Smart-working.</p>
+
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/instagram.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/github.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+                        <!-- <li><img class="social" src="{% static 'images/medium.png' %}"></li> -->
+                        <!-- <li><img class="social" src="{% static 'images/hackerrank.png' %}"></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100 border-warning">
+                    <h5>Education</h5>
+                    <br>
+                    <p>X Grade at Harvest Public School, Graduated with 10 CGPA.</p>
+                    <br>
+                    <p>XII Grade at Narayana College, Graduated with 90.7%.</p>
+                    <br>
+                    <p>B.tech at SRM University, with 9.2 CGPA in IInd year.</p>
+                </div>
+            </div>
+                <div class="col-md-6">
+                    <div class="card card-body h-100 border-warning">
+                    <h5>Personal Projects</h5>
+                    <br>
+                    <p>Athena NFT Marketplace - An NFT Marketplace using React and Tezos</p>
+                    <p>WasteX - A waste exchange app</p>
+                    <p>NRC Stores - An E-comerce Website</p>
+                    <p>EatzzZ - React website for a Restaurant</p>
+                    <p><a href="https://github.com/SairamNomula">and many more...</a></p>
+                        
+                    </div>
+                </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-80 border-success">
+                    <h5>What I know</h5>
+                        <br>
+                        <p>C, HTML, CSS, JavaScript, Python, React, SQL</p>
+                        <p>PS: Working on Machine Learning.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-80 border-success">
+                    <h5>Contact</h5>
+                <br>
+                <p>sairamnomula14@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    </body>
+</html>
